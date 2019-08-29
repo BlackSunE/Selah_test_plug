@@ -1,0 +1,11 @@
+$colorA: #000;
+
+header {
+  background-color: $colorA;
+    div{
+      transform: translateZ();
+      display: flex;
+      box-shadow: 0px 0px 20px 1px $colorA;
+      transition: all .3s ease;
+    }
+}
